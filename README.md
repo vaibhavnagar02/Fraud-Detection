@@ -6,6 +6,9 @@ This project focuses on developing a predictive model to detect fraudulent trans
 The primary objective of this project is to build a machine learning model capable of identifying potentially fraudulent transactions in real-time. By doing so, the financial company aims to mitigate the risks associated with fraudulent activities and protect its customers' accounts.
 
 # Data Description
+
+DATASET : https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+
 The dataset used in this project contains the following columns:
 
 step: A unit of time in hours, where 1 step represents 1 hour.
@@ -25,6 +28,9 @@ The project can be divided into the following key steps:
 # Data Exploration and Preprocessing: 
 Initial data exploration was performed to understand the dataset's characteristics, identify missing values, and preprocess the data. This included handling categorical variables, scaling numerical features, and addressing class imbalance.
 
+![image](https://github.com/vaibhavnagar02/Fraud-Detection/assets/87512533/2fd94c4a-1b0a-4efc-a08d-e92419f02884)
+
+
 # Model Selection: 
 Several machine learning models were considered for fraud detection, including Logistic Regression, XGBoost, Support Vector Machine (SVM), and Random Forest Classifier. Each model was trained and evaluated on relevant metrics.
 
@@ -39,6 +45,9 @@ Based on ROC-AUC scores, the best-performing model was identified and selected a
 
 # Confusion Matrix Visualization: 
 The confusion matrix for the best model, XGBoost, was plotted to provide a detailed breakdown of its performance in terms of true positives, true negatives, false positives, and false negatives.
+
+![image](https://github.com/vaibhavnagar02/Fraud-Detection/assets/87512533/0467a172-9f93-4b3f-b0e4-2824af8c587f)
+
 
 # Conclusion
 This project successfully developed a predictive model, leveraging machine learning techniques, to detect fraudulent transactions in financial data. The selected XGBoost model demonstrated strong performance in terms of ROC-AUC score, making it a valuable tool for real-time fraud detection.
